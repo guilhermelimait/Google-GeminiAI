@@ -50,7 +50,7 @@ These examples are primarily written in Python and require a few steps to set up
      ```
 
 ## 📂 Repository Structure
-\`\`\`
+```
 gemini-ai-examples/
 ├── GeminiAI-APICall/
 │   └── your_script_name.py  # Example: api_call.py
@@ -59,7 +59,7 @@ gemini-ai-examples/
 └── Other folders and examples ... :)
 ├── requirements.txt      # List of Python dependencies
 └── README.md             # This file
-\`\`\`
+```
 
 
 ## 📝 Examples
