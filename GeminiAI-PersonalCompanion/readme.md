@@ -2,7 +2,6 @@
 
 A Star Trek-themed AI chat assistant powered by Google's Gemini AI, featuring Commander Data as your personal assistant. This web application provides an interactive chat interface with weather integration and customizable settings.
 
-![Commander Data Chat Interface]
 <img src="https://github.com/guilhermelimait/Google-GeminiAI/blob/main/GeminiAI-PersonalCompanion/bot.jpg?raw=true" width="400" alt="Bot Image">
 
 
@@ -19,7 +18,6 @@ A Star Trek-themed AI chat assistant powered by Google's Gemini AI, featuring Co
 
 The application allows users to customize their experience through a settings panel:
 
-![Settings Modal]
 <img src="https://github.com/guilhermelimait/Google-GeminiAI/blob/main/GeminiAI-PersonalCompanion/bot-settings.jpg?raw=true" width="400" alt="Bot Settings">
 
 
