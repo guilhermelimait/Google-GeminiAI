@@ -1,7 +1,7 @@
 // Initialize API keys and preferences
 const API_KEYS = {
-    WEATHER: 'ee5ab21cc2405127ff46ebc7add3de6d',
-    GEMINI: 'AIzaSyCKO0rS8nrwCqpgHqYVgnPvwLbY-9P8dhI'
+    WEATHER: '',
+    GEMINI: ''
 };
 
 // Weather emoji mappings
@@ -168,6 +168,10 @@ function addMessageToChat(role, content) {
 
 // Update the weather function with reduced spacing
 async function getWeather(city) {
+    if (!API_KEYS.WEATHER) {
+        return "Please set up your OpenWeather API key in the settings first. 🔧";
+    }
+
     try {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${API_KEYS.WEATHER}&units=metric`);
         const data = await response.json();
@@ -218,6 +222,10 @@ Please try again later.`.trim();
 
 // Gemini AI integration
 async function getGeminiResponse(message) {
+    if (!API_KEYS.GEMINI) {
+        return "Please set up your Gemini API key in the settings first. 🔧";
+    }
+    
     try {
         // Create context from user preferences
         const userContext = `
@@ -388,7 +396,11 @@ function setupUserPreferences() {
         }
     }
     
+    // Initialize empty API keys if none are saved
     if (savedApiKeys) {
         Object.assign(API_KEYS, JSON.parse(savedApiKeys));
+    } else {
+        API_KEYS.WEATHER = '';
+        API_KEYS.GEMINI = '';
     }
 }
