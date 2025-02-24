@@ -108,7 +108,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - GuilhermeLima
+GuilhermeLimaIT
+
 Project Link: [https://github.com/guilhermelimait/Google-GeminiAI/tree/main/GeminiAI-PersonalCompanion](https://github.com/guilhermelimait/Google-GeminiAI/tree/main/GeminiAI-PersonalCompanion)
 
 
