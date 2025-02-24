@@ -2,7 +2,9 @@
 
 A Star Trek-themed AI chat assistant powered by Google's Gemini AI, featuring Commander Data as your personal assistant. This web application provides an interactive chat interface with weather integration and customizable settings.
 
-![Commander Data Chat Interface](assets/bot.jpg)
+![Commander Data Chat Interface]
+<img src="https://github.com/guilhermelimait/Google-GeminiAI/blob/main/GeminiAI-PersonalCompanion/bot.jpg?raw=true" width="400" alt="Bot Image">
+
 
 ## Features
 
@@ -17,7 +19,9 @@ A Star Trek-themed AI chat assistant powered by Google's Gemini AI, featuring Co
 
 The application allows users to customize their experience through a settings panel:
 
-![Settings Modal](assets/bot-settings.jpg)
+![Settings Modal]
+<img src="https://github.com/guilhermelimait/Google-GeminiAI/blob/main/GeminiAI-PersonalCompanion/bot-settings.jpg?raw=true" width="400" alt="Bot Settings">
+
 
 ### Configurable Options:
 - Personal Information (Name, Nickname, Default City)
@@ -109,6 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Your Name - GuilhermeLima
 Project Link: [https://github.com/guilhermelimait/Google-GeminiAI/tree/main/GeminiAI-PersonalCompanion](https://github.com/guilhermelimait/Google-GeminiAI/tree/main/GeminiAI-PersonalCompanion)
 
-<img src="https://github.com/guilhermelimait/Google-GeminiAI/blob/main/GeminiAI-PersonalCompanion/bot.jpg?raw=true" width="400" alt="Bot Image">
-<img src="https://github.com/guilhermelimait/Google-GeminiAI/blob/main/GeminiAI-PersonalCompanion/bot-settings.jpg?raw=true" width="400" alt="Bot Settings">
 
