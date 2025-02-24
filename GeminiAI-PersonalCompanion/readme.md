@@ -35,66 +35,58 @@ The application integrates with two main APIs:
 
 ## Setup
 
-1. Clone the repository:
-bash
-git clone https://github.com/yourusername/commander-data-chat.git
-cd commander-data-chat
+### 1. Getting Your API Keys
 
+Before using the application, you'll need to obtain two API keys:
+
+#### OpenWeather API Key
+1. Visit [OpenWeather](https://openweathermap.org/api)
+2. Sign up for a free account
+3. Go to your API keys section
+4. Copy your API key
+
+#### Google Gemini API Key
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Sign in with your Google account
+3. Create a new API key
+4. Copy your API key
+
+### 2. Using the Application
+
+1. Clone or download this repository
 2. Open `index.html` in your web browser
+3. Click the ⚙️ Settings icon
+4. Enter your API keys in the settings panel:
+   - Paste your OpenWeather API key in the "Weather API Key" field
+   - Paste your Gemini API key in the "Gemini AI API Key" field
+5. (Optional) Set your personal information:
+   - Name
+   - Nickname
+   - Default city for weather queries
+6. Click "Save Settings"
 
-3. Configure your API keys in the settings:
-   - Gemini AI API key
-   - OpenWeatherMap API key
+### 3. Security Note
 
-## Technologies Used
+Your API keys are stored locally in your browser and are never shared with any external servers except the respective API services. However, be careful not to share your browser's local storage data or API keys with others.
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Google Gemini AI API
-- OpenWeatherMap API
+## Usage
 
-## Features in Detail
+- Type your message and press Enter to chat with Commander Data
+- Ask about the weather by typing queries like:
+  - "What's the weather like?"
+  - "Weather in London"
+  - "How hot is it in Paris?"
+- Toggle between light and dark themes using the theme button
+- Access settings anytime through the ⚙️ icon
+- Clear chat history through the settings panel
 
-### AI Chat
-- Natural conversation with Commander Data persona
-- Context-aware responses
-- Memory of user preferences
-- Star Trek-themed interactions
+## Privacy
 
-### Weather Integration
-- Real-time weather data
-- Default city setting
-- Detailed weather information including:
-  - Temperature
-  - Feels like temperature
-  - Weather conditions
-  - Humidity
-  - Wind speed
-
-### User Interface
-- Clean, modern design
-- Responsive layout
-- Message bubbles with timestamps
-- Typing indicators
-- Smooth animations
-- Theme toggle
-
-## Local Storage
-
-The application stores the following information locally:
-- User preferences
-- Theme selection
-- API keys
-- Personal information
-
-## Contributing
-
-Feel free to contribute to this project by:
-1. Forking the repository
-2. Creating a feature branch
-3. Committing your changes
-4. Opening a pull request
+This application:
+- Stores all data locally in your browser
+- Does not collect or transmit personal information
+- Only sends API requests to OpenWeather and Google Gemini services
+- Requires your own API keys for functionality
 
 ## License
 
