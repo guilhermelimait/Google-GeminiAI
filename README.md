@@ -40,12 +40,12 @@ Basic examples demonstrating Gemini AI API integration:
    - Get your API key
 
 ## Repository Structure
-'''
+```
 Google-GeminiAI/
 ├── GeminiAI-APICall/ # Basic API implementation examples
 ├── GeminiAI-PersonalCompanion/ # Commander Data chat assistant
 └── README.md # This file
-'''
+```
 
 ## Security Note
 - Never commit API keys to the repository
