@@ -2,7 +2,7 @@
 
 A web-based application that analyzes images using Google's Gemini Pro Vision API, providing a detailed list of objects and elements found in the uploaded images.
 
-![Gemini Image Analyzer Demo](demo.png)
+![Gemini Image Analyzer Demo](ImageAnalyzer.png)
 
 ## 🚀 Features
 
