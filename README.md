@@ -21,6 +21,15 @@ Basic examples demonstrating Gemini AI API integration:
 
 [View API Examples →](/GeminiAI-APICall)
 
+### 3. Gemini AI Image Analyzer 🖼️
+An application that uses Gemini Pro Vision to analyze images and provide detailed descriptions:
+- Image content analysis
+- Object detection and description
+- Text extraction from images
+- Advanced image context understanding
+
+[View Image Analyzer Project →](/GeminiAI-Image-Analyzer)
+
 ## Getting Started
 
 ### Prerequisites
@@ -44,6 +53,7 @@ Basic examples demonstrating Gemini AI API integration:
 Google-GeminiAI/
 ├── GeminiAI-APICall/ # Basic API implementation examples
 ├── GeminiAI-PersonalCompanion/ # Commander Data chat assistant
+├── GeminiAI-Image-Analyzer/ # Image analysis application
 └── README.md # This file
 ```
 
@@ -58,6 +68,7 @@ Google-GeminiAI/
 - JavaScript
 - Google Gemini AI API
 - OpenWeatherMap API
+- Google Gemini Pro Vision API
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
