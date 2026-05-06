@@ -1,85 +1,54 @@
-# Google Gemini AI Projects 🤖
+# Google Gemini AI
 
-This repository contains examples and applications built using Google's Gemini AI. It includes both simple API implementation examples and a full-featured Star Trek-themed personal companion application.
+Three JavaScript projects built while exploring the Gemini API. The focus was getting hands-on with different capabilities: conversational AI, basic API integration, and image analysis via Gemini Pro Vision.
+
+---
 
 ## Projects
 
-### 1. Commander Data Personal Companion 🖖
-A Star Trek-themed chat assistant featuring Commander Data, built with:
-- Google Gemini AI for natural conversation
-- OpenWeatherMap API for real-time weather data
-- Light/Dark theme support
-- Local storage for preferences
+### Commander Data Personal Companion
 
-[View Commander Data Project →](/GeminiAI-PersonalCompanion)
+A chat assistant styled after the Star Trek character Commander Data. The personality and response patterns are shaped through a system prompt that leans into the character — factual, precise, occasionally philosophical.
 
-### 2. Gemini AI API Examples 
-Basic examples demonstrating Gemini AI API integration:
-- Simple API calls
-- Response handling
-- Basic implementations
+Integrates OpenWeatherMap alongside Gemini so weather queries return real data rather than a generic response. Includes light and dark theme support, and stores preferences in local storage so settings persist between sessions.
 
-[View API Examples →](/GeminiAI-APICall)
+**Uses:** Gemini AI API, OpenWeatherMap API, HTML, CSS, JavaScript
 
-### 3. Gemini AI Image Analyzer 🖼️
-An application that uses Gemini Pro Vision to analyze images and provide detailed descriptions:
-- Image content analysis
-- Object detection and description
-- Text extraction from images
-- Advanced image context understanding
+[View project](GeminiAI-PersonalCompanion/)
 
-[View Image Analyzer Project →](/GeminiAI-Image-Analyzer)
+---
 
-## Getting Started
+### Gemini AI API Examples
 
-### Prerequisites
-- Basic understanding of HTML, CSS, and JavaScript
-- Google Gemini AI API key
-- For the Commander Data project: OpenWeatherMap API key
+Minimal JavaScript examples showing how to interact with the Gemini API: sending a prompt, reading the response, handling errors, and chaining basic requests. A starting point if you are learning the API or want a clean reference without a full app around it.
 
-### API Keys Setup
-1. **Google Gemini AI API Key**
-   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-   - Sign in with your Google account
-   - Create a new API key
+**Uses:** Gemini AI API, JavaScript
 
-2. **OpenWeatherMap API Key** (for Commander Data project)
-   - Visit [OpenWeather](https://openweathermap.org/api)
-   - Sign up for a free account
-   - Get your API key
+[View project](GeminiAI-APICall/)
 
-## Repository Structure
-```
-Google-GeminiAI/
-├── GeminiAI-APICall/ # Basic API implementation examples
-├── GeminiAI-PersonalCompanion/ # Commander Data chat assistant
-├── GeminiAI-Image-Analyzer/ # Image analysis application
-└── README.md # This file
-```
+---
 
-## Security Note
-- Never commit API keys to the repository
-- Use environment variables or local storage for API keys
-- Follow security best practices when handling sensitive data
+### Gemini AI Image Analyzer
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-- Google Gemini AI API
-- OpenWeatherMap API
-- Google Gemini Pro Vision API
+Pass an image to Gemini Pro Vision and get back a structured description: objects present, visible text, context, and notable details. Demonstrates how to send image data to the API and parse the response into something readable.
 
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+**Uses:** Gemini Pro Vision API, JavaScript
+
+[View project](GeminiAI-Image-Analyzer/)
+
+---
+
+## Setup
+
+All three projects require a Gemini API key. The Commander Data project also requires an OpenWeatherMap API key.
+
+- Gemini API key: [Google AI Studio](https://makersuite.google.com/app/apikey)
+- OpenWeatherMap key: [openweathermap.org/api](https://openweathermap.org/api)
+
+Store your keys in environment variables or a local config file. Do not commit them to the repository.
+
+---
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-GuilhermeLimaIT
-
-## Acknowledgments
-- Google Gemini AI team for the powerful API
-- OpenWeatherMap for weather data
-- Star Trek and Commander Data are properties of Paramount
+MIT
